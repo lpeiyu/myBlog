@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.op{
+    display: flex;
+    align-items: center;
+} 
+.op .not-allow {
+    cursor: not-allowed;
+    color: #ddd;
+    text-decoration: none;
+}
+a.a-link {
+    text-decoration: none;
+    color: rgb(53,118,237);
+}
+
+/* 取消滚动条 */
+::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0;
+}
+
